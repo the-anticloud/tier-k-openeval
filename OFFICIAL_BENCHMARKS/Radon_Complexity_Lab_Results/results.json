@@ -1,0 +1,20 @@
+{
+  "benchmark": "Radon_Complexity_Lab_Results",
+  "project": "K_OPENEVAL",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://radon.readthedocs.io/",
+  "results": {
+    "framework": "Radon \u2014 Cyclomatic Complexity & Maintainability Index",
+    "source": "https://radon.readthedocs.io/",
+    "files_analyzed": 10,
+    "average_complexity": {
+      "grade": "A",
+      "score": 3.8627450980392157
+    },
+    "complexity_grade": "A",
+    "complexity_score": 3.8627450980392157,
+    "status": "PASS",
+    "raw_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\K_OPENEVAL\\UPSTREAM\\examples\\transformer-lens.py\n    F 12:0 evaluate_lm_eval - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\K_OPENEVAL\\UPSTREAM\\lm_eval\\defaults.py\n    F 13:0 _strtobool - A (3)\n    F 38:0 default_gen_kwargs - A (3)\n    F 25:0 _envbool - A (2)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\K_OPENEVAL\\UPSTREAM\\lm_eval\\evaluator.py\n    F 429:0 evaluate - F (60)\n    F 55:0 simple_evaluate - F (55)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\K_OPENEVAL\\UPSTREAM\\lm_eval\\evaluator_utils.py\n    F 173:0 _compute_task_aggregations - B (10)\n    F 430:0 _propagate_higher_is_better - B (9)\n    F 449:0 _log_selected_tasks - B (7)\n    F 509:0 _handle_back_comp - B (6)\n    F 328:0 _get_root_groups - A (5)\n    F 421:0 _propagate_num_fewshot - A (5)\n    C 99:0 EvalAcc - A (5)\n    F 37:0 print_writeout - A (4)\n    M 120:4 EvalAcc.collect - A (4)\n    M 134:4 EvalAcc._to_eval_results - A (4)\n    F 49:0 get_sample_size - A (3)\n    F 58:0 find_test_root - A (3)\n    F 248:0 _collect_results - A (3)\n    F 76:0 run_task_tests - A (2)\n    F 301:0 aggregate_groups - A (2)\n    F 345:0 _collect_groups_bottom_up - A (2)\n    F 375:0 _process_results - A (2)\n    C 29:0 ResultAcc - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\K_OPENEVAL\\UPSTREAM\\lm_eval\\result_schema.py\n    C 110:0 _TaskMetrics - A (1)\n    C 131:0 _SampleCount - A (1)\n    C 141:0 _EvalConfig - A (1)\n    C 163:0 SampleResult - ",
+    "mi_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\K_OPENEVAL\\UPSTREAM\\examples\\transformer-lens.py - A (72.54)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\K_OPENEVAL\\UPSTREAM\\lm_eval\\defaults.py - A (64.48)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\K_OPENEVAL\\UPSTREAM\\lm_eval\\evaluator.py - A (37.04)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\K_OPENEVAL\\UPSTREAM\\lm_eval\\evaluator_utils.py - A (47.72)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\K_OPE"
+  }
+}

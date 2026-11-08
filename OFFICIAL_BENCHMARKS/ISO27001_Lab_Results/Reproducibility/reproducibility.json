@@ -1,0 +1,42 @@
+{
+  "benchmark": "ISO27001_Lab_Results",
+  "project": "K_OPENEVAL",
+  "timestamp": "2026-09-30T15:11:19.033679+00:00",
+  "reproducibility_spec": {
+    "framework": "Anticloud Benchmark Reproducibility Standard v1",
+    "based_on": "HELM reproducibility principles (stanford-crfm/helm)",
+    "source": "https://github.com/stanford-crfm/helm"
+  },
+  "environment": {
+    "platform": "win32",
+    "python_version": "3.12.10",
+    "os": "nt",
+    "working_dir": "E:\\fenta\\Downloads\\The Anticloud"
+  },
+  "inputs": {
+    "project_name": "K_OPENEVAL",
+    "slug": "EleutherAI/lm-evaluation-harness",
+    "commit": "d6de81643928",
+    "tracked_files": 16415,
+    "source_lines": 108821,
+    "licence": "MIT",
+    "size_mb": 13.55
+  },
+  "inputs_hash": "2bf3adc4e1014ebc77ca2eb02f2a03f4129b444044dc857a8d27c006f0dc2a13",
+  "outputs": {
+    "results_file": "TIER_6_SECURITY_EVAL\\K_OPENEVAL\\OFFICIAL_BENCHMARKS\\ISO27001_Lab_Results\\results.json",
+    "results_sha256": "b441fb8d042c1f33f435c5a9b1a83751e5054272c600da5ebcfe6585a372eecf"
+  },
+  "reproduction_steps": [
+    "1. Clone Anticloud at commit HEAD",
+    "2. Ensure E:\\fenta\\Downloads\\The Anticloud is present",
+    "3. Run: python run_benchmarks_comprehensive.py",
+    "4. Run: python write_benchmark_subfolders.py",
+    "5. Run: python write_ledgers_repro_extra_benchmarks.py",
+    "6. Verify results_sha256 matches sha256(OFFICIAL_BENCHMARKS/ISO27001_Lab_Results/results.json)"
+  ],
+  "hf_model": "distilbert-base-uncased",
+  "hf_source": "https://huggingface.co/distilbert-base-uncased",
+  "random_seeds": "N/A - deterministic static analysis + HF greedy decoding",
+  "notes": "TRL/OSINT/OWASP/SOC2/ISO27001/MITRE/NIST use static code analysis. HF uses live CPU inference."
+}

@@ -1,0 +1,67 @@
+{
+  "benchmark": "HF_Leaderboard_Lab_Results",
+  "project": "K_OPENEVAL",
+  "tier": "TIER_6_SECURITY_EVAL",
+  "slug": "EleutherAI/lm-evaluation-harness",
+  "commit": "d6de81643928",
+  "run_timestamp": "2026-09-30T15:07:07.146295+00:00",
+  "isolation": {
+    "environment": "local",
+    "model": "distilbert-base-uncased",
+    "hf_model_load_time_sec": 4.42,
+    "platform": "win32",
+    "python": "3.12.10"
+  },
+  "results": {
+    "framework": "HuggingFace Open LLM Leaderboard (proxy via distilbert-base-uncased)",
+    "source": "https://huggingface.co/docs/leaderboards/en/open_llm_leaderboard/archive",
+    "model_used": "distilbert-base-uncased",
+    "note": "Full MMLU/HellaSwag/TruthfulQA/ARC/Winogrande/GSM8K require GPU. Proxy: inference latency.",
+    "samples_run": 5,
+    "latency_ms": {
+      "avg": 46.01,
+      "min": 43.5,
+      "max": 51.54,
+      "all": [
+        51.54,
+        43.98,
+        43.5,
+        45.97,
+        45.07
+      ]
+    },
+    "status": "PASS",
+    "tokenization": {
+      "model": "distilbert-base-uncased",
+      "input_text": "K_OPENEVAL (EleutherAI/lm-evaluation-harness) \u2014 16415 files, 108821 source lines, licence MIT, primary language ['Python']",
+      "token_count": 41,
+      "tokens_preview": [
+        "[CLS]",
+        "k",
+        "_",
+        "open",
+        "##eva",
+        "##l",
+        "(",
+        "el",
+        "##eu",
+        "##ther",
+        "##ai",
+        "/",
+        "l",
+        "##m",
+        "-",
+        "evaluation",
+        "-",
+        "harness",
+        ")",
+        "\u2014"
+      ],
+      "tokenization_latency_ms": 1.0,
+      "classification_label": "LABEL_0",
+      "classification_score": 0.5895,
+      "classification_latency_ms": 79.99,
+      "status": "PASS"
+    }
+  }
+}

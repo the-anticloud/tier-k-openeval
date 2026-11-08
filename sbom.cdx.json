@@ -1,0 +1,137 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:379c5429-2eb5-5e61-85af-46211677240c",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-13T21:09:31Z",
+    "component": {
+      "type": "application",
+      "name": "K_OPENEVAL",
+      "version": "d6de81643928",
+      "bom-ref": "pkg:generic/anticloud/K_OPENEVAL@d6de81643928",
+      "purl": "pkg:generic/anticloud/K_OPENEVAL@d6de81643928",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "d6de81643928d653435c431bae19945d41d32520"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/EleutherAI/lm-evaluation-harness.git"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "datasets",
+      "version": ">=2.16.0",
+      "purl": "pkg:pypi/datasets@2.16.0",
+      "bom-ref": "pypi/datasets@>=2.16.0"
+    },
+    {
+      "type": "library",
+      "name": "numpy",
+      "version": "unspecified",
+      "purl": "pkg:pypi/numpy",
+      "bom-ref": "pypi/numpy@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "evaluate",
+      "version": ">=0.4.0",
+      "purl": "pkg:pypi/evaluate@0.4.0",
+      "bom-ref": "pypi/evaluate@>=0.4.0"
+    },
+    {
+      "type": "library",
+      "name": "jinja2",
+      "version": "unspecified",
+      "purl": "pkg:pypi/jinja2",
+      "bom-ref": "pypi/jinja2@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pytablewriter",
+      "version": "unspecified",
+      "purl": "pkg:pypi/pytablewriter",
+      "bom-ref": "pypi/pytablewriter@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "rouge-score",
+      "version": ">=0.0.4",
+      "purl": "pkg:pypi/rouge-score@0.0.4",
+      "bom-ref": "pypi/rouge-score@>=0.0.4"
+    },
+    {
+      "type": "library",
+      "name": "sacrebleu",
+      "version": ">=1.5.0",
+      "purl": "pkg:pypi/sacrebleu@1.5.0",
+      "bom-ref": "pypi/sacrebleu@>=1.5.0"
+    },
+    {
+      "type": "library",
+      "name": "scikit-learn",
+      "version": ">=0.24.1",
+      "purl": "pkg:pypi/scikit-learn@0.24.1",
+      "bom-ref": "pypi/scikit-learn@>=0.24.1"
+    },
+    {
+      "type": "library",
+      "name": "sqlitedict",
+      "version": "unspecified",
+      "purl": "pkg:pypi/sqlitedict",
+      "bom-ref": "pypi/sqlitedict@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "dill",
+      "version": "unspecified",
+      "purl": "pkg:pypi/dill",
+      "bom-ref": "pypi/dill@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "word2number",
+      "version": "unspecified",
+      "purl": "pkg:pypi/word2number",
+      "bom-ref": "pypi/word2number@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "more_itertools",
+      "version": "unspecified",
+      "purl": "pkg:pypi/more_itertools",
+      "bom-ref": "pypi/more_itertools@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "typing_extensions",
+      "version": "unspecified",
+      "purl": "pkg:pypi/typing_extensions",
+      "bom-ref": "pypi/typing_extensions@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "tqdm",
+      "version": ">=4.59.0",
+      "purl": "pkg:pypi/tqdm@4.59.0",
+      "bom-ref": "pypi/tqdm@>=4.59.0"
+    }
+  ]
+}
